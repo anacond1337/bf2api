@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container:nth-child(even) {
+  background-color: gray;
+}
+
+.container:nth-child(odd) {
+  background-color: lightgrey;
+}
+
+.container {
+  display: flex;
+  padding-top: .2rem;
+  padding-bottom: .2rem;
+  user-select: none;
+  cursor: pointer;
+}
+
+.servername {
+  width: 33%;
+}
+
+.serverip {
+  width: 17%;
+}
+
+.mapname {
+  width: 17%;
+}
+
+.header {
+  padding: .5rem 0 !important;
+  background-color: white !important;
+  font-weight: bold;
+  display: flex;
+  padding-top: .2rem;
+  padding-bottom: .2rem;
+  user-select: none;
+}
+
+.container:hover {
+  background-color: rgb(246, 209, 43)
+}
